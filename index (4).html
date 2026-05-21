@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style (4).css" />
+    <title>Gerador de Curriculo</title>
+  </head>
+  <body>
+    <div class="container">
+      <section id="secao-formulario">
+        <h2>Preencha seus dados</h2>
+
+        <form id="formulario-curriculo">
+          <div class="grupo-campo">
+            <label for="entradaNome">Nome Completo</label>
+            <input
+              type="text"
+              id="entradaNome"
+              placeholder="Ex: Douglas Diniz"
+              required
+            />
+          </div>
+
+          <div class="grupo-campo">
+            <label for="entradaContato">Contato</label>
+            <input
+              type="text"
+              id="entradaContato"
+              placeholder="Ex: douglas.alunoti@gmail.com 61 98155-8551 Brasília DF"
+              required
+            />
+          </div>
+          <div class="grupo-campo">
+            <label for="entradaResumo">resumo profissional</label>
+            <input
+              type="text"
+              id="entradaResumo"
+              placeholder="Breve resumo de carreira"
+              required
+            />
+          </div>
+          <div class="grupo-campo">
+            <label for="entradaexperiencia">experiência profissional</label>
+            <input
+              type="text"
+              id="entradaExperiencia"
+              placeholder="Ex: Empresa - Cargo - Data inicio - Data saída"
+              required
+            />
+          </div>
+          <div class="grupo-campo">
+            <label for="entradaFormacao">Formaçào Acadêmica</label>
+            <input
+              type="text"
+              id="entradaFormacao"
+              placeholder="Ex: Instituição - Curso - (ano de conclusão)"
+              required
+            />
+          </div>
+
+          <button type="button" id="botaoGerar">Gerar currículo</button>
+        </form>
+      </section>
+
+      <search id="secao-curriculo" class="escondido">
+        <div class="cartao-curriculo">
+            <div class="cabecalho-curriculo">
+                <h1 id="curriculo-nome"></h1>
+                <p id="curriculoContado"></p>
+            </div>
+        </div>
+      </search>
+    </div>
+  </body>
+  <script src="scrript (4).js"></script>
+</html>
