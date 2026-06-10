@@ -49,7 +49,31 @@
 #container-conteudo-direito{
     width: 30%;
     height: 70vh;
-    background-color: blueviolet;
+}
+
+#container-login{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(210, 234, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#container-login h3 {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-login form{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #container-esquerdo-item-1{
@@ -64,8 +88,34 @@
     height: 90px;
 }
 
+#container-conteudo-esquerdo div{
+
+    margin-top: 20px;
+}
+
 
 #container-textos-item-1{
     height: 80px;
-    background-color: blueviolet;
 }
+
+
+
+#container-esquerdo-item-2{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+
+    
+}
+
+#container-esquerdo-item-3{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+
+   
+}
+
+
